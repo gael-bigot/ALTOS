@@ -1,0 +1,920 @@
+Finished in 382 ms
+Finished in 405 ms
+Finished in 547 ms
+Finished in 467 ms
+Finished in 409 ms
+Finished in 579 ms
+Finished in 392 ms
+Finished in 391 ms
+Finished in 396 ms
+Finished in 395 ms
+Finished in 378 ms
+Finished in 377 ms
+Finished in 405 ms
+Finished in 559 ms
+Finished in 590 ms
+Finished in 498 ms
+Finished in 391 ms
+Finished in 393 ms
+Finished in 392 ms
+Finished in 391 ms
+Finished in 404 ms
+Finished in 370 ms
+Finished in 384 ms
+Finished in 366 ms
+Finished in 397 ms
+Finished in 387 ms
+Finished in 604 ms
+Finished in 577 ms
+Finished in 381 ms
+Finished in 397 ms
+Finished in 565 ms
+Finished in 541 ms
+Finished in 397 ms
+Finished in 510 ms
+Finished in 381 ms
+Finished in 538 ms
+Finished in 385 ms
+Finished in 513 ms
+Finished in 514 ms
+Finished in 364 ms
+Finished in 398 ms
+Finished in 570 ms
+Finished in 371 ms
+Finished in 542 ms
+Finished in 581 ms
+Finished in 539 ms
+Finished in 511 ms
+Finished in 376 ms
+Finished in 563 ms
+Finished in 535 ms
+Finished in 379 ms
+Finished in 400 ms
+Finished in 395 ms
+Finished in 609 ms
+Finished in 610 ms
+Finished in 400 ms
+Finished in 356 ms
+Finished in 392 ms
+Finished in 385 ms
+Finished in 391 ms
+Finished in 360 ms
+Finished in 384 ms
+Finished in 424 ms
+Finished in 357 ms
+Finished in 468 ms
+Finished in 512 ms
+Finished in 527 ms
+Finished in 357 ms
+Finished in 399 ms
+Finished in 548 ms
+Finished in 366 ms
+Finished in 391 ms
+Finished in 560 ms
+Finished in 383 ms
+Finished in 396 ms
+Finished in 366 ms
+Finished in 508 ms
+Finished in 397 ms
+Finished in 392 ms
+Finished in 598 ms
+Finished in 467 ms
+Finished in 533 ms
+Finished in 391 ms
+Finished in 415 ms
+Finished in 359 ms
+Finished in 365 ms
+Finished in 399 ms
+Finished in 531 ms
+Finished in 397 ms
+Finished in 380 ms
+Finished in 398 ms
+Finished in 364 ms
+Finished in 573 ms
+Finished in 406 ms
+Finished in 533 ms
+Finished in 379 ms
+Finished in 405 ms
+Finished in 484 ms
+Finished in 384 ms
+Finished in 397 ms
+Finished in 399 ms
+Finished in 360 ms
+Finished in 384 ms
+Finished in 404 ms
+Finished in 538 ms
+Finished in 397 ms
+Finished in 384 ms
+Finished in 400 ms
+Finished in 365 ms
+Finished in 485 ms
+Finished in 536 ms
+Finished in 359 ms
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di c_in i dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : j dj c_in i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i j di c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj di j i c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j c_in i dj di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j c_in di dj i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i di dj c_in j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di dj i c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in dj di j i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in j di dj i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in j di i dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj c_in di j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di i j dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di i j c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j dj c_in di i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di j c_in dj i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj i c_in di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j dj c_in di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i di dj c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di dj c_in i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i c_in dj j di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in i j di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in dj i di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj i di c_in j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : c_in j i di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j di i c_in dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : i di j dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di c_in i j dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di dj i c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : di i j dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j di dj i c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : i dj c_in di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i di j dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : c_in i di dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : i dj di j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in di j i dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i di j c_in dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i di j c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : di c_in i dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in di dj i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di j i dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : dj c_in j di i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j di i c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : i dj di j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j di i dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j c_in dj di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j i c_in di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di i dj j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in i di dj j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj c_in di j i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j dj c_in i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j i dj di c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : i j di c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj i c_in di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : c_in dj j i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj j c_in di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj j c_in i di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di dj j c_in i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : dj c_in j i di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in j i dj di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : di dj c_in i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj c_in j i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di dj j i c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i j di dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di dj j i c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in i j dj di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : j dj di c_in i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i j di c_in dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in di j dj i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j dj c_in di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di j i dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : dj c_in i j di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in dj j i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j c_in dj di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i di j dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di j dj c_in i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : i c_in dj di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj j i c_in di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di dj i j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj i j c_in di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j c_in di i dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : c_in di dj i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj c_in j i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : i c_in dj j di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : c_in dj di j i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i di dj j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j c_in i di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in dj i di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : j dj c_in di i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i dj c_in j di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i dj j di c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : di c_in dj i j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di j i c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in di i dj j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i dj c_in j di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj i di j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in di j i dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : i di dj c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j di c_in dj i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in j i di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj c_in i di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di c_in dj i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : i di dj j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j c_in i di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in dj i j di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j di dj c_in i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj c_in j di i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di i dj j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di i dj j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di c_in j i dj c_out
+DATA LAYOUT : HWCFinished in 531 ms
+Finished in 396 ms
+Finished in 363 ms
+Finished in 395 ms
+Finished in 574 ms
+Finished in 603 ms
+Finished in 465 ms
+Finished in 394 ms
+Finished in 420 ms
+Finished in 513 ms
+Finished in 372 ms
+Finished in 376 ms
+Finished in 428 ms
+Finished in 579 ms
+Finished in 392 ms
+Finished in 486 ms
+Finished in 398 ms
+Finished in 493 ms
+Finished in 367 ms
+Finished in 510 ms
+Finished in 579 ms
+Finished in 559 ms
+Finished in 399 ms
+Finished in 389 ms
+Finished in 419 ms
+Finished in 393 ms
+Finished in 375 ms
+Finished in 402 ms
+Finished in 426 ms
+Finished in 536 ms
+Finished in 374 ms
+Finished in 534 ms
+Finished in 423 ms
+Finished in 378 ms
+Finished in 393 ms
+Finished in 532 ms
+Finished in 377 ms
+Finished in 398 ms
+Finished in 397 ms
+Finished in 380 ms
+Finished in 394 ms
+Finished in 524 ms
+Finished in 381 ms
+Finished in 384 ms
+Finished in 353 ms
+Finished in 397 ms
+Finished in 563 ms
+Finished in 359 ms
+Finished in 398 ms
+Finished in 576 ms
+Finished in 359 ms
+Finished in 391 ms
+Finished in 522 ms
+Finished in 352 ms
+Finished in 404 ms
+Finished in 383 ms
+Finished in 392 ms
+Finished in 399 ms
+Finished in 400 ms
+Finished in 392 ms
+Finished in 548 ms
+Finished in 394 ms
+Finished in 395 ms
+Finished in 397 ms
+Finished in 426 ms
+Finished in 513 ms
+Finished in 545 ms
+Finished in 485 ms
+Finished in 534 ms
+Finished in 386 ms
+Finished in 514 ms
+Finished in 393 ms
+Finished in 381 ms
+Finished in 384 ms
+Finished in 363 ms
+Finished in 543 ms
+Finished in 364 ms
+Finished in 509 ms
+Finished in 511 ms
+Finished in 401 ms
+Finished in 392 ms
+Finished in 566 ms
+Finished in 364 ms
+Finished in 616 ms
+Finished in 459 ms
+Finished in 607 ms
+Finished in 560 ms
+Finished in 387 ms
+Finished in 384 ms
+Finished in 580 ms
+Finished in 368 ms
+Finished in 572 ms
+Finished in 420 ms
+Finished in 382 ms
+Finished in 780 ms
+Finished in 572 ms
+Finished in 452 ms
+Finished in 728 ms
+Finished in 538 ms
+Finished in 421 ms
+Finished in 453 ms
+Finished in 659 ms
+Finished in 559 ms
+Finished in 473 ms
+Finished in 519 ms
+Finished in 569 ms
+Finished in 719 ms
+Finished in 492 ms
+Finished in 461 ms
+Finished in 658 ms
+Finished in 397 ms
+Finished in 500 ms
+
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di j dj i c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : dj di i c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : c_in di i dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj di j c_in i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j dj i c_in di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i dj j c_in di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di dj j i c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i c_in di dj j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj di c_in i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j i c_in dj di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j di c_in i dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in i di dj j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj di c_in i j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j di i dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : i dj c_in di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i di dj j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : c_in di dj i j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : di i dj j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : dj c_in i di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i j dj di c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di j i dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : i c_in j dj di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di i c_in dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di dj c_in j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j c_in dj i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj i c_in j di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di c_in dj j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : dj di c_in i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di j dj i c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : i c_in j di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj j di i c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj di c_in i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in i dj di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in di dj i j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : dj i di j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in i dj di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i di dj c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j di dj c_in i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di c_in i j dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in dj di j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj di i j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : c_in i dj di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj c_in i j di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : c_in j di i dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j c_in di dj i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j i c_in di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : c_in j i di dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj c_in di j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di c_in i j dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j dj c_in di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i j dj di c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in j di i dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j c_in i dj di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : c_in i j dj di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j c_in dj i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : c_in dj di i j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : dj i c_in di j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i c_in di dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i j di c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i c_in di dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j c_in dj i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : c_in dj di j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : dj di c_in i j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j i dj c_in di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj i di j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : di j i c_in dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj j c_in i di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : j i c_in dj di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j c_in dj di i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di c_in j dj i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : c_in di j i dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj di i c_in j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j dj i c_in di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : i c_in di j dj c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j di i dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i j dj di c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : i dj c_in di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i di c_in dj j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : di i j dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in dj j di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : dj i j di c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : c_in dj di j i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : i di dj j c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj i j c_in di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : dj c_in i j di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in i j di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : c_in dj j di i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j i di c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CHWN
+LOOP ORDER : dj c_in i di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj c_in i di j c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : i di j c_in dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : c_in i j dj di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di j c_in dj i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj di i j c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : di dj i c_in j c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : c_in j dj i di c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : c_in j di dj i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WHCN
+LOOP ORDER : j i di dj c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : dj di c_in j i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : dj c_in di j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di c_in dj j i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : i di c_in j dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : j dj i c_in di c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : CWHN
+LOOP ORDER : di dj c_in j i c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j di dj c_in i c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HCWN
+LOOP ORDER : dj j di i c_in c_out
+DATA LAYOUT : WHC
+KERNEL_LAYOUT : HWCN
+LOOP ORDER : j di c_in i dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : WCHN
+LOOP ORDER : i c_in j di dj c_out
+DATA LAYOUT : HWC
+KERNEL_LAYOUT : HWCNFinished in 577 ms
+Finished in 422 ms
+Finished in 458 ms
+Finished in 475 ms
+Finished in 419 ms
+Finished in 459 ms
+Finished in 496 ms
+Finished in 417 ms
+Finished in 460 ms
+Finished in 477 ms
+Finished in 511 ms
+Finished in 412 ms
+Finished in 403 ms
+Finished in 402 ms
+Finished in 429 ms
+Finished in 393 ms
+Finished in 442 ms
+Finished in 418 ms
+Finished in 674 ms
+Finished in 575 ms
+Finished in 410 ms
+Finished in 405 ms
+Finished in 587 ms
